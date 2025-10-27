@@ -29,8 +29,8 @@ export default function About() {
         <p className="text-gray-500 text-lg leading-relaxed mb-10">
           I’m a passionate web designer and developer with over 1.5 years of experience 
           creating user-centered designs and functional web solutions. I specialize in 
-          building clean, modern, and responsive websites using <strong>React, Node.js, 
-          MongoDB</strong>, and <strong>WordPress</strong>. I enjoy solving complex problems 
+          building clean, modern, and responsive websites using React, Node.js, 
+          MongoDB, and WordPress. I enjoy solving complex problems 
           and transforming creative ideas into engaging digital experiences.
         </p>
 
