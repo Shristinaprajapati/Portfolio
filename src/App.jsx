@@ -7,11 +7,15 @@ import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import DesignProjects from "./sections/DesignProjects";
 import WordPressProjects from "./sections/WordPressProjects";
+import ScrollToTop from "./components/ScrollToTop"; // import it
 
 export default function App() {
   return (
     <div className="font-sans bg-gray-50 text-gray-900">
       <Navbar />
+
+      {/* Add ScrollToTop here */}
+      <ScrollToTop />
 
       <Routes>
         {/* Main portfolio (single-page layout) */}
