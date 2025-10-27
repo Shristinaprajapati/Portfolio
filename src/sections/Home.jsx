@@ -29,7 +29,7 @@ export default function Home() {
             className="mt-4 text-lg md:text-1xl font-extralight text-gray-200 max-w-3xl"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
-            Web Designer & Developer | WordPress Developer
+            Software Developer | Designer & WordPress Developer
           </p>
         </div>
 
