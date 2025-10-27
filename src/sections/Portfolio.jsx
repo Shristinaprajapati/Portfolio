@@ -94,7 +94,7 @@ export default function Portfolio() {
         className="relative w-full max-w-[95%] mx-auto"
       >
         {/* Sticky Section */}
-        <div className="sticky top-0 h-screen bg-[#f6f8fb] text-gray-900 rounded-[1.5rem] px-6 lg:px-12 py-16 flex flex-col lg:flex-row overflow-hidden shadow-lg border border-gray-100">
+        <div className="sticky top-0 h-screen bg-[#f6f8fb] text-gray-900 rounded-[1.5rem] px-6 lg:px-12 py-16 flex flex-col lg:flex-row overflow-hidden shadow-lg">
           
           {/* LEFT SIDE */}
           <div className="w-full lg:w-1/2 flex flex-col justify-center px-4 sm:px-8 py-10 overflow-hidden">

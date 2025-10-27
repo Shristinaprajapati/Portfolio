@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link as RouterLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true);
@@ -9,7 +9,6 @@ export default function Navbar() {
 
   const handleClick = (id) => {
     if (location.pathname !== "/") {
-      // navigate to home first
       window.location.href = `/#${id}`;
     } else {
       const section = document.getElementById(id);
@@ -41,7 +40,7 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center px-6 py-4">
         <ul className="flex space-x-6 font-medium">
-          {["home", "about", "portfolio", "experience", "contact"].map((id) => (
+          {["home", "about", "portfolio", "experience"].map((id) => (
             <li key={id}>
               <button
                 onClick={() => handleClick(id)}
@@ -53,9 +52,10 @@ export default function Navbar() {
           ))}
         </ul>
 
+        {/* Hide on small screens */}
         <button
           onClick={() => handleClick("contact")}
-          className="ml-4 px-5 py-2 rounded-full bg-blue-500/80 hover:bg-blue-600 transition-all"
+          className="hidden sm:block ml-4 px-5 py-2 rounded-full bg-blue-500/80 hover:bg-blue-600 transition-all"
         >
           Get In Touch
         </button>
